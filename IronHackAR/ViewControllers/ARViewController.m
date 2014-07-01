@@ -31,6 +31,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self initializeARView];
+    [self loadArchitectWorld];
     
 }
 
@@ -54,6 +55,11 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [self.architectView stop];
+}
+
+- (void)loadArchitectWorld {
+    NSURL *architectWorldUrl = [[NSBundle mainBundle] URLForResource:@"index" withExtension:@"html" subdirectory:@"2_3dAndImageRecognition_3_Interactivity"];
+    [self.architectView loadArchitectWorldFromUrl:architectWorldUrl];
 }
 
 @end
