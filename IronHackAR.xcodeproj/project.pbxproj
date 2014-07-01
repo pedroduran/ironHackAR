@@ -19,6 +19,21 @@
 		45CC64BD1962CEDD00123008 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64A51962CEDD00123008 /* UIKit.framework */; };
 		45CC64C51962CEDD00123008 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45CC64C31962CEDD00123008 /* InfoPlist.strings */; };
 		45CC64C71962CEDD00123008 /* IronHackARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64C61962CEDD00123008 /* IronHackARTests.m */; };
+		45CC64D31962CFDC00123008 /* WikitudeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64D21962CFDC00123008 /* WikitudeSDK.framework */; };
+		45CC64D51962D0F400123008 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64D41962D0F400123008 /* AssetsLibrary.framework */; };
+		45CC64D71962D10000123008 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64D61962D10000123008 /* AVFoundation.framework */; };
+		45CC64D91962D10400123008 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64D81962D10400123008 /* CFNetwork.framework */; };
+		45CC64DB1962D11300123008 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64DA1962D11300123008 /* CoreLocation.framework */; };
+		45CC64DD1962D12100123008 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64DC1962D12100123008 /* CoreMedia.framework */; };
+		45CC64DF1962D12900123008 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64DE1962D12900123008 /* CoreMotion.framework */; };
+		45CC64E11962D13200123008 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64E01962D13200123008 /* CoreText.framework */; };
+		45CC64E31962D14500123008 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64E21962D14500123008 /* CoreVideo.framework */; };
+		45CC64E51962D16D00123008 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64E41962D16D00123008 /* MediaPlayer.framework */; };
+		45CC64E71962D17800123008 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64E61962D17800123008 /* OpenGLES.framework */; };
+		45CC64E91962D18700123008 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64E81962D18700123008 /* QuartzCore.framework */; };
+		45CC64EB1962D19B00123008 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64EA1962D19B00123008 /* Security.framework */; };
+		45CC64ED1962D1B900123008 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64EC1962D1B900123008 /* libc++.dylib */; };
+		45CC64EF1962D1C100123008 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64EE1962D1C100123008 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +63,21 @@
 		45CC64C21962CEDD00123008 /* IronHackARTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IronHackARTests-Info.plist"; sourceTree = "<group>"; };
 		45CC64C41962CEDD00123008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45CC64C61962CEDD00123008 /* IronHackARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IronHackARTests.m; sourceTree = "<group>"; };
+		45CC64D21962CFDC00123008 /* WikitudeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WikitudeSDK.framework; path = IronHackAR/Frameworks/WikitudeSDK.framework; sourceTree = "<group>"; };
+		45CC64D41962D0F400123008 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		45CC64D61962D10000123008 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		45CC64D81962D10400123008 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		45CC64DA1962D11300123008 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		45CC64DC1962D12100123008 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		45CC64DE1962D12900123008 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		45CC64E01962D13200123008 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		45CC64E21962D14500123008 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		45CC64E41962D16D00123008 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		45CC64E61962D17800123008 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		45CC64E81962D18700123008 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		45CC64EA1962D19B00123008 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		45CC64EC1962D1B900123008 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		45CC64EE1962D1C100123008 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +85,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CC64A41962CEDD00123008 /* CoreGraphics.framework in Frameworks */,
+				45CC64EF1962D1C100123008 /* libz.dylib in Frameworks */,
+				45CC64ED1962D1B900123008 /* libc++.dylib in Frameworks */,
 				45CC64A61962CEDD00123008 /* UIKit.framework in Frameworks */,
+				45CC64EB1962D19B00123008 /* Security.framework in Frameworks */,
+				45CC64E91962D18700123008 /* QuartzCore.framework in Frameworks */,
+				45CC64E71962D17800123008 /* OpenGLES.framework in Frameworks */,
+				45CC64E51962D16D00123008 /* MediaPlayer.framework in Frameworks */,
 				45CC64A21962CEDD00123008 /* Foundation.framework in Frameworks */,
+				45CC64E31962D14500123008 /* CoreVideo.framework in Frameworks */,
+				45CC64E11962D13200123008 /* CoreText.framework in Frameworks */,
+				45CC64DF1962D12900123008 /* CoreMotion.framework in Frameworks */,
+				45CC64DD1962D12100123008 /* CoreMedia.framework in Frameworks */,
+				45CC64DB1962D11300123008 /* CoreLocation.framework in Frameworks */,
+				45CC64A41962CEDD00123008 /* CoreGraphics.framework in Frameworks */,
+				45CC64D91962D10400123008 /* CFNetwork.framework in Frameworks */,
+				45CC64D71962D10000123008 /* AVFoundation.framework in Frameworks */,
+				45CC64D51962D0F400123008 /* AssetsLibrary.framework in Frameworks */,
+				45CC64D31962CFDC00123008 /* WikitudeSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +141,21 @@
 		45CC64A01962CEDD00123008 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45CC64EE1962D1C100123008 /* libz.dylib */,
+				45CC64EC1962D1B900123008 /* libc++.dylib */,
+				45CC64EA1962D19B00123008 /* Security.framework */,
+				45CC64E81962D18700123008 /* QuartzCore.framework */,
+				45CC64E61962D17800123008 /* OpenGLES.framework */,
+				45CC64E41962D16D00123008 /* MediaPlayer.framework */,
+				45CC64E21962D14500123008 /* CoreVideo.framework */,
+				45CC64E01962D13200123008 /* CoreText.framework */,
+				45CC64DE1962D12900123008 /* CoreMotion.framework */,
+				45CC64DC1962D12100123008 /* CoreMedia.framework */,
+				45CC64DA1962D11300123008 /* CoreLocation.framework */,
+				45CC64D81962D10400123008 /* CFNetwork.framework */,
+				45CC64D61962D10000123008 /* AVFoundation.framework */,
+				45CC64D41962D0F400123008 /* AssetsLibrary.framework */,
+				45CC64D21962CFDC00123008 /* WikitudeSDK.framework */,
 				45CC64A11962CEDD00123008 /* Foundation.framework */,
 				45CC64A31962CEDD00123008 /* CoreGraphics.framework */,
 				45CC64A51962CEDD00123008 /* UIKit.framework */,
@@ -359,9 +419,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IronHackAR/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IronHackAR/IronHackAR-Prefix.pch";
 				INFOPLIST_FILE = "IronHackAR/IronHackAR-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,9 +437,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IronHackAR/Frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IronHackAR/IronHackAR-Prefix.pch";
 				INFOPLIST_FILE = "IronHackAR/IronHackAR-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,6 +509,7 @@
 				45CC64CC1962CEDD00123008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45CC64CD1962CEDD00123008 /* Build configuration list for PBXNativeTarget "IronHackARTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +518,7 @@
 				45CC64CF1962CEDD00123008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
