@@ -37,6 +37,7 @@
 		45CC64F61962D91C00123008 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64F41962D91C00123008 /* ARViewController.m */; };
 		45CC64F71962D91C00123008 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CC64F51962D91C00123008 /* ARViewController.xib */; };
 		45CC64FC1962D9AC00123008 /* UIDevice+SystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64FB1962D9AC00123008 /* UIDevice+SystemVersion.m */; };
+		C10A0D7F19630AD100BA709D /* 99_Demo_2_SolarSystem(Geo) in Resources */ = {isa = PBXBuildFile; fileRef = C10A0D7E19630AD100BA709D /* 99_Demo_2_SolarSystem(Geo) */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		45CC64FA1962D9AC00123008 /* UIDevice+SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SystemVersion.h"; sourceTree = "<group>"; };
 		45CC64FB1962D9AC00123008 /* UIDevice+SystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SystemVersion.m"; sourceTree = "<group>"; };
 		45CC64FE1962DBAD00123008 /* SkyBubbDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyBubbDefines.h; sourceTree = "<group>"; };
+		C10A0D7E19630AD100BA709D /* 99_Demo_2_SolarSystem(Geo) */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "99_Demo_2_SolarSystem(Geo)"; path = "ARchitectExamples/99_Demo_2_SolarSystem(Geo)"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 		45CC64A71962CEDD00123008 /* IronHackAR */ = {
 			isa = PBXGroup;
 			children = (
+				C10A0D7D19630A8B00BA709D /* ARchitectExamples */,
 				45CC64B01962CEDD00123008 /* AppDelegate.h */,
 				45CC64B11962CEDD00123008 /* AppDelegate.m */,
 				45CC64B31962CEDD00123008 /* Images.xcassets */,
@@ -241,6 +244,14 @@
 				45CC64FB1962D9AC00123008 /* UIDevice+SystemVersion.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		C10A0D7D19630A8B00BA709D /* ARchitectExamples */ = {
+			isa = PBXGroup;
+			children = (
+				C10A0D7E19630AD100BA709D /* 99_Demo_2_SolarSystem(Geo) */,
+			);
+			name = ARchitectExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +334,7 @@
 			files = (
 				45CC64AC1962CEDD00123008 /* InfoPlist.strings in Resources */,
 				45CC64F71962D91C00123008 /* ARViewController.xib in Resources */,
+				C10A0D7F19630AD100BA709D /* 99_Demo_2_SolarSystem(Geo) in Resources */,
 				45CC64B41962CEDD00123008 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

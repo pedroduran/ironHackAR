@@ -31,7 +31,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self initializeARView];
-    
+    [self loadArchitectWorld];    
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,6 +54,11 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [self.architectView stop];
+}
+
+- (void)loadArchitectWorld {
+    NSURL *architectWorldUrl = [[NSBundle mainBundle] URLForResource:@"index" withExtension:@"html" subdirectory:@"99_Demo_2_SolarSystem(Geo)"];
+    [self.architectView loadArchitectWorldFromUrl:architectWorldUrl];
 }
 
 @end
