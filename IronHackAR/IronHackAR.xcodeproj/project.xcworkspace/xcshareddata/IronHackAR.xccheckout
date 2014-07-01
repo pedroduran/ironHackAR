@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>247595CF-3645-4C37-9E58-0643D98345CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IronHackAR</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>27196442-9A2F-48FC-88AA-F3CCF42D60BD</key>
+		<string>https://github.com/pedroduran/ironHackAR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IronHackAR/IronHackAR.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>27196442-9A2F-48FC-88AA-F3CCF42D60BD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pedroduran/ironHackAR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>27196442-9A2F-48FC-88AA-F3CCF42D60BD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>27196442-9A2F-48FC-88AA-F3CCF42D60BD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ironHackAR</string>
+		</dict>
+	</array>
+</dict>
+</plist>

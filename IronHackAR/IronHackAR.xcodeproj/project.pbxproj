@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45CC64A21962CEDD00123008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64A11962CEDD00123008 /* Foundation.framework */; };
+		45CC64A41962CEDD00123008 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64A31962CEDD00123008 /* CoreGraphics.framework */; };
+		45CC64A61962CEDD00123008 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64A51962CEDD00123008 /* UIKit.framework */; };
+		45CC64AC1962CEDD00123008 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45CC64AA1962CEDD00123008 /* InfoPlist.strings */; };
+		45CC64AE1962CEDD00123008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64AD1962CEDD00123008 /* main.m */; };
+		45CC64B21962CEDD00123008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64B11962CEDD00123008 /* AppDelegate.m */; };
+		45CC64B41962CEDD00123008 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CC64B31962CEDD00123008 /* Images.xcassets */; };
+		45CC64BB1962CEDD00123008 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64BA1962CEDD00123008 /* XCTest.framework */; };
+		45CC64BC1962CEDD00123008 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64A11962CEDD00123008 /* Foundation.framework */; };
+		45CC64BD1962CEDD00123008 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64A51962CEDD00123008 /* UIKit.framework */; };
+		45CC64C51962CEDD00123008 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45CC64C31962CEDD00123008 /* InfoPlist.strings */; };
+		45CC64C71962CEDD00123008 /* IronHackARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64C61962CEDD00123008 /* IronHackARTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45CC64BE1962CEDD00123008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CC64961962CEDD00123008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CC649D1962CEDD00123008;
+			remoteInfo = IronHackAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45CC649E1962CEDD00123008 /* IronHackAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronHackAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CC64A11962CEDD00123008 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45CC64A31962CEDD00123008 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45CC64A51962CEDD00123008 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45CC64A91962CEDD00123008 /* IronHackAR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IronHackAR-Info.plist"; sourceTree = "<group>"; };
+		45CC64AB1962CEDD00123008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45CC64AD1962CEDD00123008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45CC64AF1962CEDD00123008 /* IronHackAR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IronHackAR-Prefix.pch"; sourceTree = "<group>"; };
+		45CC64B01962CEDD00123008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45CC64B11962CEDD00123008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45CC64B31962CEDD00123008 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45CC64B91962CEDD00123008 /* IronHackARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronHackARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CC64BA1962CEDD00123008 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45CC64C21962CEDD00123008 /* IronHackARTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IronHackARTests-Info.plist"; sourceTree = "<group>"; };
+		45CC64C41962CEDD00123008 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45CC64C61962CEDD00123008 /* IronHackARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IronHackARTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CC649B1962CEDD00123008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC64A41962CEDD00123008 /* CoreGraphics.framework in Frameworks */,
+				45CC64A61962CEDD00123008 /* UIKit.framework in Frameworks */,
+				45CC64A21962CEDD00123008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CC64B61962CEDD00123008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC64BB1962CEDD00123008 /* XCTest.framework in Frameworks */,
+				45CC64BD1962CEDD00123008 /* UIKit.framework in Frameworks */,
+				45CC64BC1962CEDD00123008 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45CC64951962CEDD00123008 = {
+			isa = PBXGroup;
+			children = (
+				45CC64A71962CEDD00123008 /* IronHackAR */,
+				45CC64C01962CEDD00123008 /* IronHackARTests */,
+				45CC64A01962CEDD00123008 /* Frameworks */,
+				45CC649F1962CEDD00123008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45CC649F1962CEDD00123008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CC649E1962CEDD00123008 /* IronHackAR.app */,
+				45CC64B91962CEDD00123008 /* IronHackARTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CC64A01962CEDD00123008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64A11962CEDD00123008 /* Foundation.framework */,
+				45CC64A31962CEDD00123008 /* CoreGraphics.framework */,
+				45CC64A51962CEDD00123008 /* UIKit.framework */,
+				45CC64BA1962CEDD00123008 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45CC64A71962CEDD00123008 /* IronHackAR */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64B01962CEDD00123008 /* AppDelegate.h */,
+				45CC64B11962CEDD00123008 /* AppDelegate.m */,
+				45CC64B31962CEDD00123008 /* Images.xcassets */,
+				45CC64A81962CEDD00123008 /* Supporting Files */,
+			);
+			path = IronHackAR;
+			sourceTree = "<group>";
+		};
+		45CC64A81962CEDD00123008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64A91962CEDD00123008 /* IronHackAR-Info.plist */,
+				45CC64AA1962CEDD00123008 /* InfoPlist.strings */,
+				45CC64AD1962CEDD00123008 /* main.m */,
+				45CC64AF1962CEDD00123008 /* IronHackAR-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45CC64C01962CEDD00123008 /* IronHackARTests */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64C61962CEDD00123008 /* IronHackARTests.m */,
+				45CC64C11962CEDD00123008 /* Supporting Files */,
+			);
+			path = IronHackARTests;
+			sourceTree = "<group>";
+		};
+		45CC64C11962CEDD00123008 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64C21962CEDD00123008 /* IronHackARTests-Info.plist */,
+				45CC64C31962CEDD00123008 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45CC649D1962CEDD00123008 /* IronHackAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CC64CA1962CEDD00123008 /* Build configuration list for PBXNativeTarget "IronHackAR" */;
+			buildPhases = (
+				45CC649A1962CEDD00123008 /* Sources */,
+				45CC649B1962CEDD00123008 /* Frameworks */,
+				45CC649C1962CEDD00123008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronHackAR;
+			productName = IronHackAR;
+			productReference = 45CC649E1962CEDD00123008 /* IronHackAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45CC64B81962CEDD00123008 /* IronHackARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CC64CD1962CEDD00123008 /* Build configuration list for PBXNativeTarget "IronHackARTests" */;
+			buildPhases = (
+				45CC64B51962CEDD00123008 /* Sources */,
+				45CC64B61962CEDD00123008 /* Frameworks */,
+				45CC64B71962CEDD00123008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CC64BF1962CEDD00123008 /* PBXTargetDependency */,
+			);
+			name = IronHackARTests;
+			productName = IronHackARTests;
+			productReference = 45CC64B91962CEDD00123008 /* IronHackARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CC64961962CEDD00123008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = zoompin;
+				TargetAttributes = {
+					45CC64B81962CEDD00123008 = {
+						TestTargetID = 45CC649D1962CEDD00123008;
+					};
+				};
+			};
+			buildConfigurationList = 45CC64991962CEDD00123008 /* Build configuration list for PBXProject "IronHackAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45CC64951962CEDD00123008;
+			productRefGroup = 45CC649F1962CEDD00123008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CC649D1962CEDD00123008 /* IronHackAR */,
+				45CC64B81962CEDD00123008 /* IronHackARTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CC649C1962CEDD00123008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC64AC1962CEDD00123008 /* InfoPlist.strings in Resources */,
+				45CC64B41962CEDD00123008 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CC64B71962CEDD00123008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC64C51962CEDD00123008 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CC649A1962CEDD00123008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC64B21962CEDD00123008 /* AppDelegate.m in Sources */,
+				45CC64AE1962CEDD00123008 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CC64B51962CEDD00123008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CC64C71962CEDD00123008 /* IronHackARTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45CC64BF1962CEDD00123008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CC649D1962CEDD00123008 /* IronHackAR */;
+			targetProxy = 45CC64BE1962CEDD00123008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45CC64AA1962CEDD00123008 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CC64AB1962CEDD00123008 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45CC64C31962CEDD00123008 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CC64C41962CEDD00123008 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45CC64C81962CEDD00123008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45CC64C91962CEDD00123008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45CC64CB1962CEDD00123008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronHackAR/IronHackAR-Prefix.pch";
+				INFOPLIST_FILE = "IronHackAR/IronHackAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45CC64CC1962CEDD00123008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronHackAR/IronHackAR-Prefix.pch";
+				INFOPLIST_FILE = "IronHackAR/IronHackAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45CC64CE1962CEDD00123008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IronHackAR.app/IronHackAR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronHackAR/IronHackAR-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IronHackARTests/IronHackARTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45CC64CF1962CEDD00123008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IronHackAR.app/IronHackAR";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronHackAR/IronHackAR-Prefix.pch";
+				INFOPLIST_FILE = "IronHackARTests/IronHackARTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CC64991962CEDD00123008 /* Build configuration list for PBXProject "IronHackAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CC64C81962CEDD00123008 /* Debug */,
+				45CC64C91962CEDD00123008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CC64CA1962CEDD00123008 /* Build configuration list for PBXNativeTarget "IronHackAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CC64CB1962CEDD00123008 /* Debug */,
+				45CC64CC1962CEDD00123008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45CC64CD1962CEDD00123008 /* Build configuration list for PBXNativeTarget "IronHackARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CC64CE1962CEDD00123008 /* Debug */,
+				45CC64CF1962CEDD00123008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45CC64961962CEDD00123008 /* Project object */;
+}
