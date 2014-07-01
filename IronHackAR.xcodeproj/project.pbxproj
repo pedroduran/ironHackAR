@@ -34,6 +34,9 @@
 		45CC64EB1962D19B00123008 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64EA1962D19B00123008 /* Security.framework */; };
 		45CC64ED1962D1B900123008 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64EC1962D1B900123008 /* libc++.dylib */; };
 		45CC64EF1962D1C100123008 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CC64EE1962D1C100123008 /* libz.dylib */; };
+		45CC64F61962D91C00123008 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64F41962D91C00123008 /* ARViewController.m */; };
+		45CC64F71962D91C00123008 /* ARViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45CC64F51962D91C00123008 /* ARViewController.xib */; };
+		45CC64FC1962D9AC00123008 /* UIDevice+SystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC64FB1962D9AC00123008 /* UIDevice+SystemVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,11 @@
 		45CC64EA1962D19B00123008 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		45CC64EC1962D1B900123008 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		45CC64EE1962D1C100123008 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		45CC64F31962D91C00123008 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		45CC64F41962D91C00123008 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		45CC64F51962D91C00123008 /* ARViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARViewController.xib; sourceTree = "<group>"; };
+		45CC64FA1962D9AC00123008 /* UIDevice+SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SystemVersion.h"; sourceTree = "<group>"; };
+		45CC64FB1962D9AC00123008 /* UIDevice+SystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SystemVersion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +178,9 @@
 				45CC64B01962CEDD00123008 /* AppDelegate.h */,
 				45CC64B11962CEDD00123008 /* AppDelegate.m */,
 				45CC64B31962CEDD00123008 /* Images.xcassets */,
+				45CC64F81962D9AC00123008 /* Internal */,
 				45CC64A81962CEDD00123008 /* Supporting Files */,
+				45CC64F21962D85100123008 /* ViewControllers */,
 			);
 			path = IronHackAR;
 			sourceTree = "<group>";
@@ -202,6 +212,33 @@
 				45CC64C31962CEDD00123008 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45CC64F21962D85100123008 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64F31962D91C00123008 /* ARViewController.h */,
+				45CC64F41962D91C00123008 /* ARViewController.m */,
+				45CC64F51962D91C00123008 /* ARViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		45CC64F81962D9AC00123008 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64F91962D9AC00123008 /* Categories */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		45CC64F91962D9AC00123008 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				45CC64FA1962D9AC00123008 /* UIDevice+SystemVersion.h */,
+				45CC64FB1962D9AC00123008 /* UIDevice+SystemVersion.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45CC64AC1962CEDD00123008 /* InfoPlist.strings in Resources */,
+				45CC64F71962D91C00123008 /* ARViewController.xib in Resources */,
 				45CC64B41962CEDD00123008 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45CC64B21962CEDD00123008 /* AppDelegate.m in Sources */,
+				45CC64F61962D91C00123008 /* ARViewController.m in Sources */,
 				45CC64AE1962CEDD00123008 /* main.m in Sources */,
+				45CC64FC1962D9AC00123008 /* UIDevice+SystemVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

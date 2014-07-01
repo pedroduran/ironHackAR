@@ -8,13 +8,25 @@
 
 #import "AppDelegate.h"
 
+#import "UIDevice+SystemVersion.h"
+#import "ARViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    if ([UIDevice isRunningiOS7]) {
+        self.window.backgroundColor = [UIColor whiteColor];
+    }
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.mainViewController = [[ARViewController alloc] initWithNibName:@"ARViewController" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.mainViewController];
+    if ( ![UIDevice isRunningiOS7] ) {
+        [navigationController.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+    }
+    
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
